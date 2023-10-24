@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Raleway&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    --fontText: 'Poppins', sans-serif;
+    --fontAuthor: 'Raleway', sans-serif;
+}
+
+body{
+    padding-top: 2rem;
+    background-color: #8075d2;
+}
+
+.quote{
+    text-align: center;
+
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 1.5rem;
+
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 0.5rem;
+}
+
+.quote .title{
+    font-family: var(--fontText);
+    font-size: 2rem;
+    font-style: italic;
+
+    color: #fff;
+
+    margin-bottom: 1rem;
+}
+
+.quote .author{
+    font-family: var(--fontAuthor);
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+
+.button{
+    background-color: #FFDBDA;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 1px 2px 2px rgb(36, 36, 36);
+    font-size: 1.2rem;
+    
+    padding: 0.8rem 1.2rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.button:hover{
+    background-color: #ffa9a6;
+}
