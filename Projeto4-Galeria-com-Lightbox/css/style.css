@@ -1,0 +1,114 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=Poppins&family=Raleway&display=swap');
+
+/* CONFIGURAÇÕES GERAIS*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #ffd8f0;
+}
+
+/* GALERIA */
+h1{
+    font-family: 'Oswald', sans-serif;
+    padding: 0.5% 0;
+    text-align: center;
+}
+
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 1% 0%;
+    padding: 1% 1%;
+    border-radius: 5px;
+}
+
+.gallery-item{
+    flex: 0 0 calc(33.333% - 10px);
+    /*
+    0 no primeiro lugar indica que o elemento não deve crescer em relação aos outros itens quando há espaço extra disponível.
+    0 no segundo lugar significa que o elemento não deve encolher em relação aos outros itens quando há falta de espaço.
+    calc(33.333% - 10px) define o tamanho inicial do elemento. Especifica que cada item da galeria deve ocupar 33.333% da largura do contêiner da galeria, com uma subtração de 10 pixels para levar em conta a margem entre os itens.*/
+}
+
+.gallery-image{
+    width: 100%;
+    height: 300px;
+    object-fit: cover; /* serve para ajustar a imagem ao espaço disponível, sem perder qualidade e sem esticar */
+
+    transition: .3s;
+
+    cursor: pointer;
+}
+
+.gallery-image:hover{
+    transform: scale(1.1);
+}
+
+.gallery-image:hover{
+    transform: scale(1.1);
+}
+
+/* LIGHTBOX */
+.lightbox{
+    display: none;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+
+    background-color: rgba(0, 0, 0, 0.8);
+
+    z-index: 100;
+}
+
+.lightbox-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 100%;
+}
+
+.lightbox-image{
+    max-width: 800px;
+    object-fit: cover;
+}
+
+.lightbox-close{
+    position: absolute;
+    top: 1rem;
+    right: 2rem;
+
+    font-size: 2rem;
+
+    color: #fff;
+    border: 2px solid #fff;
+
+    padding: 0.1rem 0.3rem;
+
+    cursor: pointer;
+
+    transition: 0.4s;
+}
+
+.lightbox-close:hover{
+    background-color: #fff;
+    color: #ff3030;
+}
+
+/* FOOTER */
+footer p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
