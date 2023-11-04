@@ -10,7 +10,7 @@
 }
 
 body{
-    background-color: #ffd8f0;
+    background-color: #ffe1f3;
 }
 
 /* GALERIA */
@@ -111,4 +111,35 @@ h1{
 footer p{
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
+}
+
+/* RESPONSIVIDADE */
+
+/* telas de celular */
+@media (max-width: 768px) {
+    h1{
+        font-size: 1.5rem;
+    }
+
+   .gallery{
+        padding: 10px;
+        gap: 5px;
+   }
+
+   .gallery-item{
+        flex: calc(50% - 10px);
+   }
+
+   .gallery-image{
+        height: 200px;
+   }
+
+   .lightbox-image{
+        max-width: 90%;
+   }
+
+   .lightbox-close{
+        font-size: 1.3rem;
+        padding: 0.1rem 0.2rem;
+   }
 }
