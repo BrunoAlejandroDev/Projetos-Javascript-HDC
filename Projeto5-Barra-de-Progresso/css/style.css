@@ -8,6 +8,7 @@
 /* TÍTULO */
 h1{
     text-align: center;
+    margin: 2% 0;
 }
 
 /* CONTAINER */
@@ -82,4 +83,24 @@ button i{
     background-color: #2e8b57;
     color: #fff;
     border: 2px solid #2e8b57;
+}
+
+/* RESPONSIVIDADE */
+@media (max-width: 450px) {
+    h1{
+        margin: 3% 0;
+    }
+
+    .progress-bar{
+        margin: 10% 0;
+    }
+
+    .controls{
+        gap: 10px;
+    }
+
+    button{
+        padding: 0.2rem 0.4rem;
+        font-size: 0.7rem;
+    }
 }
