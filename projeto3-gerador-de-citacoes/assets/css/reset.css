@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Raleway&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    --fontText: 'Poppins', sans-serif;
+    --fontAuthor: 'Raleway', sans-serif;
+}
+
+body{
+    padding-top: 2rem;
+    background-color: #8075d2;
+}

@@ -28,6 +28,18 @@ const quotes = [
       quote: "O fracasso não significa que você não seja bom o suficiente, significa que você precisa se esforçar mais",
       author: "Autor desconhecido",
     },
+    {
+      quote: "Ouse, ouse tudo! Seja na vida o que você é, aconteça o que acontecer.",
+      author: "A natureza da mordida - Madeira, Carla."
+    },
+    {
+      quote: "Um dia bem aproveitado é uma vida bem vivida.",
+      author: "Bem vindos a livraria Hyunam-dong - Bo-Reum, Hwang"
+    },
+    {
+      quote: "Não tem como absorver o novo sem se esvaziar um pouco.",
+      author: "A natureza da mordida - Madeira, Carla"
+    }
 ];
 
 // selecionando os elementos do HTML
