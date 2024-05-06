@@ -1,45 +1,15 @@
-/* CONFIGURAÇÕES GERAIS */
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-body{
-    background-color: #9fdcff;
-}
-
-main{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    margin: 2% 0;
-}
-
-p{
-    text-align: center;
-    font-size: 1.2em;
-    font-weight: 600;
-}
-
-.bold{
-    font-weight: bold;
-}
-
-/* CONVERSOR 1 */
+/* INICIO CONVERSOR 1 */
 .container1{
     background-color: rgb(248, 176, 255);
     border-radius: 10px;
     box-shadow: 3px 3px 1px rgba(0, 0, 0, 0.703);
 
-    padding: 2%;
+    padding: 2rem;
     width: 450px;
 }
 
 h1{
-   font-size: 2.2em;
+   font-size: 2.2rem;
    margin-bottom: 2%;
    text-align: center;
 }
@@ -89,24 +59,25 @@ button:hover{
 }
 
 #message{
-    font-size: .8em;
+    font-size: .8rem;
     color: rgb(21, 21, 21);
     margin: 1% 0;
     text-align: center;
 }
+/* FIM CONVERSOR 1 */
 
-/* CONVERSOR 2 - VOLUME */
+/** INICIO CONVERSOR 2 */
 .container2{
     background-color: rgb(205, 168, 255);
     border-radius: 10px;
     box-shadow: 3px 3px 1px rgba(0, 0, 0, 0.703);
 
-    padding: 2%;
+    padding: 2rem;
     width: 450px;
 }
 
 h1{
-   font-size: 2.2em;
+   font-size: 2.2rem;
    margin-bottom: 2%;
    text-align: center;
 }
@@ -156,15 +127,24 @@ input{
 }
 
 #message2{
-    font-size: .8em;
+    font-size: .8rem;
     color: rgb(21, 21, 21);
     margin: 1% 0;
     text-align: center;
 }
 
-footer p{
+/** FIM CONVERSOR 2 */
+
+footer {
     text-align: center;
+}
+
+.creator{
+    color: black;
+    cursor: pointer;
     font-size: 1.1em;
+    text-decoration: none;
+    font-weight: 600;
 }
 
 /* RESPONSIVIDADE */

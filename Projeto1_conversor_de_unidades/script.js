@@ -13,18 +13,19 @@ let messageElement = document.querySelector('#message')
 let messageElement2 = document.querySelector('#message2')
 
 function convertValuesComp(){
+    //* pegando as unidades dos inputs
     const fromValue = fromElement.value;
     const toValue = toElement.value
     const inputValue = Number(inputElement.value)
 
-    // validação para o caso de unidades iguais
+    //* validação para o caso de unidades iguais
     if(fromValue === toValue){
         outputElement.value = inputElement.value
         messageElement.textContent = 'As unidades escolhidas são iguais.'
         return
     }
     
-    let result 
+    let result; 
     switch (fromValue) {
         case 'km':
             switch (toValue) {
@@ -202,11 +203,12 @@ function convertValuesComp(){
             }
         break;
     }
-    // Exibir resultado no input
+
+    //* Exibir resultado no input
     messageElement.textContent = '';
     outputElement.value = result
 
-    // Exibir resultado na mensagem
+    //* Exibir resultado na mensagem
     const fromLabel = fromElement.options[fromElement.selectedIndex].text
     const toLabel = toElement.options[toElement.selectedIndex].text
     

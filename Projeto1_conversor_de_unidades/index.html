@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Conversor de Unidades</title>
+    <link rel="stylesheet" href="style/reset.css">
     <link rel="stylesheet" href="style/style.css">
-    <script src="script.js" defer></script>
 </head>
 <body>
     <main>
@@ -17,6 +17,7 @@
                 <label for="input">Digite a quantidade:</label>
                 <input type="number" name="input" id="input" placeholder="Insira o valor">
             </div>
+
             <div class="input-group">
                 <label for="from">De:</label>
                 <select id="from">
@@ -29,6 +30,7 @@
                     <option value="mm">Milímetros(s)</option>
                 </select>
             </div>
+
             <div class="input-group">
                 <label for="to">Para:</label>
                 <select id="to">
@@ -41,11 +43,14 @@
                     <option value="mm">Milímetros(s)</option>
                 </select>
             </div>
+
             <button id="convert-btn">Converter</button>
+
             <div class="output-group">
                 <label for="output">Resultado:</label>
                 <input type="text" id="output" readonly>
             </div>
+
             <div id="message" class="bold"></div>
         </div>
 
@@ -58,6 +63,7 @@
                 <label for="input2">Digite a quantidade:</label>
                 <input type="number2" name="input2" id="input2" placeholder="Insira o valor">
             </div>
+
             <div class="input-group2">
                 <label for="from2">De:</label>
                 <select id="from2">
@@ -70,6 +76,7 @@
                     <option value="ml">Mililitro(s)</option>
                 </select>
             </div>
+
             <div class="input-group2">
                 <label for="to2">Para:</label>
                 <select id="to2">
@@ -82,17 +89,22 @@
                     <option value="ml">Mililitro(s)</option>
                 </select>
             </div>
+
             <button id="convert-btn2" class="button2">Converter</button>
+
             <div class="output-group2">
                 <label for="output2">Resultado:</label>
                 <input type="text" id="output2" readonly>
             </div>
+
             <div id="message2" class="bold"></div>
         </div>
     </main>
 
     <footer>
-        <p class="creator">@brunoalejandrodev</p>
+        <a href="https://github.com/BrunoAlejandroDev" class="creator">&copyBrunoAlejandroDev</a>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>

@@ -1,0 +1,29 @@
+/* CONFIGURAÇÕES GERAIS */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #9fdcff;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 2rem 0;
+}
+
+p{
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.bold{
+    font-weight: bold;
+}
