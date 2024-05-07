@@ -1,0 +1,2 @@
+## Ideia de novo requisito
+    - quando o usuário clicar fora da foto ela também fechar, para não ficar dependendo só do botão.

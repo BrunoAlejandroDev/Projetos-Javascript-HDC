@@ -1,0 +1,63 @@
+/* FOOTER */
+footer{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+footer a {
+    background-color: lightblue;
+    color: black;
+
+    padding: 0.75rem 1rem;
+
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: ease 0.3s;
+}
+
+footer a:hover {
+    background-color: rgb(132, 205, 230);
+}
+
+/* RESPONSIVIDADE */
+
+/* telas de celular */
+@media (max-width: 768px) {
+    h1{
+        font-size: 1.5rem;
+    }
+
+   .gallery{
+        padding: 10px;
+        gap: 5px;
+   }
+
+   .gallery-item{
+        flex: calc(50% - 10px);
+   }
+
+   .gallery-image{
+        height: 200px;
+   }
+
+   .lightbox-image{
+        max-width: 90%;
+   }
+
+   .lightbox-close{
+        font-size: 1.3rem;
+        padding: 0.1rem 0.2rem;
+   }
+}
+
+@media screen and (max-width: 430px) {
+    .gallery {
+        flex-direction: column;
+    }
+
+    .lightbox-close{
+        top: 2rem;
+        color: #FF3030;
+   }
+}
