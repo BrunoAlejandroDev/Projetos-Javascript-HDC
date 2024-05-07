@@ -34,11 +34,15 @@ footer a:hover {
    }
 
    .gallery-item{
-        flex: calc(50% - 10px);
+        flex: calc(50% - 5px);
    }
 
    .gallery-image{
         height: 200px;
+   }
+
+   .lightbox {
+        padding: 1rem;
    }
 
    .lightbox-image{
@@ -46,7 +50,10 @@ footer a:hover {
    }
 
    .lightbox-close{
-        font-size: 1.3rem;
+        top: 4rem;
+        background-color: #FFF;
+        color: #FF3030;
+        font-size: 1.5rem;
         padding: 0.1rem 0.2rem;
    }
 }
@@ -56,8 +63,14 @@ footer a:hover {
         flex-direction: column;
     }
 
+    .lightbox-image{
+        max-width: 80%;
+   }
+
     .lightbox-close{
-        top: 2rem;
+        background-color: #FFF;
+        top: 5rem;
+        font-size: 1.3rem;
         color: #FF3030;
    }
 }
