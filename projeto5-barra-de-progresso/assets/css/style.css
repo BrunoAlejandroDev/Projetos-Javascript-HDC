@@ -8,13 +8,16 @@
 /* TÍTULO */
 h1{
     text-align: center;
-    margin: 2% 0;
+    margin: 2rem 0;
 }
 
 /* CONTAINER */
 .container{
+    background-color: lightcyan;
     max-width: 50%;
+    padding: 1rem;
     margin: 0 auto;
+    border-radius: 5px;
 }
 
 /* BARRA DE PROGRESSO */
@@ -41,7 +44,7 @@ h1{
     display: flex;
     justify-content: space-between;
 
-    margin-top: 3%;
+    margin-top: 1.5rem;
 }
 
 /* botões */ 
